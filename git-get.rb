@@ -2,9 +2,9 @@
 class GitGet < Formula
   desc "Clone git repositories into namespaced directories like go get."
   homepage "https://github.com/yi-jiayu/git-get"
-  url "https://github.com/yi-jiayu/git-get/releases/download/v0.4.0/git-get_0.4.0_darwin_amd64.tar.gz"
-  version "0.4.0"
-  sha256 "e90719b3052686b411a930f915a278404be398921a8b5d8c64e39e007ecb90b0"
+  url "https://github.com/yi-jiayu/git-get/releases/download/v0.5.0/git-get_0.5.0_darwin_amd64.tar.gz"
+  version "0.5.0"
+  sha256 "bb32f0ce57a402410478b3d7cb0155f9245db90947ee59b13207316606d985b7"
 
   def install
     bin.install "git-get"
